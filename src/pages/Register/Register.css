@@ -1,0 +1,80 @@
+.Register {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 400px;
+  height: 700px;
+  margin: auto;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.RegisterForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.RegisterForm > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.RegisterForm label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+.RegisterForm input {
+  height: 30px;
+}
+
+.RegisterHeader > h1 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  width: 80%;
+  margin-top: 50px;
+  height: 30px;
+  background-color: rgb(32, 31, 31);
+  border: 0px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.logIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logIn > hr {
+  border-top: 1px solid white;
+  width: 40%;
+}
+
+#btn {
+  width: 100%;
+  margin-top: 10px;
+}
