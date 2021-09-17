@@ -1,12 +1,12 @@
 .Register {
   display: inline-block;
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 10px;
   bottom: 0;
   left: 0;
   right: 0;
   width: 400px;
-  height: 700px;
+  height: 600px;
   margin: auto;
   background-color: black;
   border: 1px solid white;
@@ -50,31 +50,43 @@
 
 button {
   width: 80%;
-  margin-top: 50px;
-  height: 30px;
+  margin-top: 30px;
   background-color: rgb(32, 31, 31);
   border: 0px;
   color: white;
   font-size: 0.8rem;
   font-weight: bold;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-.logIn {
+.register__logIn {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.logIn > hr {
+.register__logIn > hr {
   border-top: 1px solid white;
   width: 40%;
 }
 
-#btn {
-  width: 100%;
+.register__logIn > a {
   margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(32, 31, 31);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
 }
